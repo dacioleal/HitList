@@ -164,6 +164,7 @@
 				TargetAttributes = {
 					F3CFD94F1B4910EC00CF8011 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 3CAF8YGZEM;
 					};
 					F3CFD9671B4910EC00CF8011 = {
 						CreatedOnToolsVersion = 6.4;
@@ -344,9 +345,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = HitList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -354,9 +357,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = HitList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -413,6 +418,7 @@
 				F3CFD9741B4910EC00CF8011 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3CFD9751B4910EC00CF8011 /* Build configuration list for PBXNativeTarget "HitListTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +427,7 @@
 				F3CFD9771B4910EC00CF8011 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
