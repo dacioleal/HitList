@@ -53,7 +53,7 @@ class ViewController: UIViewController, UITableViewDataSource {
         super.viewWillAppear(animated)
         
         
-        //Fetching data
+        //Fetching data from DB
         let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
         let managedObjectContext = appDelegate.managedObjectContext!
         
