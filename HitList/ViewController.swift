@@ -57,7 +57,8 @@ class ViewController: UIViewController, UITableViewDataSource {
         let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
         let managedObjectContext = appDelegate.managedObjectContext!
         
-        let fetchRequest = NSFetchRequest(entityName: "Person")
+        let fetchRequest = NSFetchRequest()
+        fetchRequest.entity = NSEntityDescription.entityForName("Person", inManagedObjectContext: managedObjectContext)
         
         var error : NSError?
         
